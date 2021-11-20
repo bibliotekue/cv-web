@@ -88,7 +88,7 @@ class Media(models.Model):
         return self.name
 
 
-class Porfolio(models.Model):
+class Portfolio(models.Model):
 
     class Meta:
         verbose_name_plural = 'Portfolio Profiles'
@@ -106,7 +106,7 @@ class Porfolio(models.Model):
     def save(self, *args, **kwargs):
         if not self.id:
             self.slug = slugify(self.name)
-        super(Porfolio, self).save(*args, **kwargs)
+        super(Portfolio, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.name

@@ -153,6 +153,7 @@ class Certificate(models.Model):
     name = models.CharField(max_length=50, blank=True, null=True)
     title = models.CharField(max_length=200, blank=True, null=True)
     description = models.CharField(max_length=500, blank=True, null=True)
+    url = models.URLField(blank=True, null=True)
     is_active = models.BooleanField(default=True)
 
     def __str__(self):

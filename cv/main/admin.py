@@ -45,7 +45,7 @@ class BlogAdmin(admin.ModelAdmin):
 
 @admin.register(Certificate)
 class CertificateAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name')
+    list_display = ('id', 'name', 'url')
 
 
 @admin.register(Skill)

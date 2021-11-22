@@ -1,5 +1,5 @@
 """
-WSGI config for cv project.
+WSGI config for cv-engine project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cv.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cv-engine.settings')
 
 application = get_wsgi_application()

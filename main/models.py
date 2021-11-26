@@ -97,6 +97,7 @@ class Portfolio(models.Model):
         ('Autumn', 'Autumn'))
 
     class Meta:
+        managed = True
         verbose_name_plural = 'Portfolio Profiles'
         verbose_name = 'Portfolio'
         ordering = ['name']

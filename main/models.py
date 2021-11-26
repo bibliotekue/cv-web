@@ -89,6 +89,11 @@ class Media(models.Model):
 
 
 class Portfolio(models.Model):
+    SEASON_CHOICES = (
+        ('Winter', 'Winter'),
+        ('Spring', 'Spring'),
+        ('Summer', 'Summer'),
+        ('Autumn', 'Autumn'))
 
     class Meta:
         verbose_name_plural = 'Portfolio Profiles'
@@ -101,6 +106,8 @@ class Portfolio(models.Model):
     body = RichTextField(blank=True, null=True)
     image = models.ImageField(blank=True, null=True, upload_to='portfolio')
     slug = models.SlugField(null=True, blank=True)
+    url = models.URLField(blank=True, null=True)
+    season = models.CharField(max_length=10, choices=SEASON_CHOICES, default='Winter', blank=True, null=True)
     is_active = models.BooleanField(default=True)
 
     def save(self, *args, **kwargs):

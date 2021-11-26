@@ -155,6 +155,7 @@ class Blog(models.Model):
 class Certificate(models.Model):
 
     class Meta:
+        ordering = ['-date']
         verbose_name_plural = 'Certificates'
         verbose_name = 'Certificate'
 

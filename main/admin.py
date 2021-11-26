@@ -33,7 +33,7 @@ class MediaAdmin(admin.ModelAdmin):
 
 @admin.register(Portfolio)
 class PortfolioAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'is_active')
+    list_display = ('id', 'name', 'is_active', 'url', 'season')
     readonly_fields = ('slug',)
 
 

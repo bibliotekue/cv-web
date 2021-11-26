@@ -21,6 +21,7 @@ class Skill(models.Model):
 class UserProfile(models.Model):
 
     class Meta:
+        managed = True
         verbose_name_plural = 'User Profiles'
         verbose_name = 'User Profile'
 

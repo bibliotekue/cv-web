@@ -4,11 +4,10 @@ Hi there. This is a Django app that helps me to digitize my resume. With any luc
 
 # Installation
 
-.. code-block:: bash
 
     $ git clone https://github.com/bibliotekue/cv-web.git
-
-`$ cd cv-web/`
+    $ cd cv-web/
+    
 # Requirement
 To install dependencies, you need to run the command.
 

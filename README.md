@@ -3,7 +3,7 @@
 Hi there. This is a Django app that helps me to digitize my resume. With any luck, I will stand out in a round and land my dream job.
 
 # Installation
-`$ git clone https://github.com/bibliotekue/cv-web.git`
+`$ git clone https://github.com/bibliotekue/cv-web.git`\n
 `$ cd cv-web/`
 # Requirement
 To install dependencies, you need to run the command.

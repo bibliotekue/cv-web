@@ -4,4 +4,4 @@ Hi there. This is a Django app that helps me to digitize my resume. With any luc
 
 # Requirement
 ---
-> pip install -r requirements.txt
+`pip install -r requirements.txt`

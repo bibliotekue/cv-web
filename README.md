@@ -14,6 +14,7 @@ To install dependencies, you need to run the command.
 After installing the dependencies, you need to create and apply migrations.
 
 `$ python manage.py makemigrations`
+
 And apply migrations.
 
 `$ python manage.py migrate`

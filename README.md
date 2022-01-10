@@ -4,8 +4,12 @@ Hi there. This is a Django app that helps me to digitize my resume. With any luc
 
 # Installation
 
-
+Do first.
+    
     $ git clone https://github.com/bibliotekue/cv-web.git
+
+Then.
+    
     $ cd cv-web/
     
 # Requirement

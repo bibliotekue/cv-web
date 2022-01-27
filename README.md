@@ -2,31 +2,39 @@
 
 Hi there. This is a Django app that helps me to digitize my resume. With any luck, I will stand out in a round and land my dream job.
 
-# Installation
+## Run locally
 
-Do first.
+**Clone project**
     
      git clone https://github.com/bibliotekue/cv-web.git
 
-Then.
+**Get project folder**
     
      cd cv-web/
     
-# Requirement
-To install dependencies, you need to run the command.
+**Create virtual environment**
+
+    python -m venv venv
+    
+**Acrivate virtual Environment**
+
+    source venv/bin/activate
+    
+**Install dependencies**
 
     pip install -r requirements.txt
 
-# Migrations
-After installing the dependencies, you need to create and apply migrations.
+**Migrate**
 
     python manage.py makemigrations
 
-And apply migrations.
-
     python manage.py migrate
-# Run
-After installing all dependencies and migrations, you need to run the server on your local computer.
+
+**Create super user**
+
+    python manage.py createsuperuser
+    
+**Run server**
 
     python manage.py runserver
 

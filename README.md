@@ -39,4 +39,4 @@ Hi there. This is a Django app that helps me to digitize my resume. With any luc
     python manage.py runserver
 
 ---
-After this you could do anything on your local server.
+After this you could do anything on your local server. Also, if something went wrong with layout you need configure STATIC_URL and MEDIA_URL in cv-engine/settings.py.

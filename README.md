@@ -29,3 +29,5 @@ And apply migrations.
 After installing all dependencies and migrations, you need to run the server on your local computer.
 
     python manage.py runserver
+
+After this you could do anything on your local server.

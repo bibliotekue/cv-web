@@ -47,5 +47,14 @@
     <!-- ================================
     End Scripts
     ================================= -->
+  {% if request.user.is_authenticated %}
+    {% if request.user.is_staff %}
+        <div class="admin-panel align-items-center">
+            <a href="/admin" class="btn btn-outline-info">Admin</a>
+            {% block admin-panel %}{% endblock %}
+        </div>
+    {% endif %}
+  {% endif %}
+
   </body>
 </html>

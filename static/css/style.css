@@ -774,3 +774,50 @@ input[type=text], input[type=email], select, textarea {
   margin-bottom: 16px;
   resize: vertical
 }
+
+/* admin panel */
+.admin-panel {
+    border: 1px solid #999;
+    border-radius: 2px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    opacity: 0.3;
+    padding: 15px;
+}
+
+.admin-panel:hover {
+    opacity: 1;
+}
+
+.admin-panel a {
+    display: block;
+    margin: 5px 0;
+}
+
+a.edit, a.delete {
+    display: none;
+}
+
+.author-panel {
+    border: 1px solid #999;
+    border-radius: 2px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    opacity: 0.3;
+    padding: 15px;
+}
+
+.author-panel:hover {
+    opacity: 1;
+}
+
+.author-panel a {
+    display: block;
+    margin: 5px 0;
+}
+
+a.edit, a.delete {
+    display: none;
+}
